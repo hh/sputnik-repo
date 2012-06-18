@@ -1,0 +1,37 @@
+Description
+===========
+
+This is an exmample chef-solo repo containing sputnik developer profiles.
+
+The Sputnik developer profiles are json data-bag items and are contained under:
+
+data_bags/sputnick_profiles/*json
+
+They are compbined and applied via different dna json files under dna/*json
+
+Usage
+=====
+
+Make sure you are using librarian-chef, and that the sputnik cookbook is available:
+
+https://github.com/hh-cookbooks/sputnik
+
+```sh
+bundle install # or gem install librarian
+bundle exec librarian update
+bundle exec librarian install
+```
+
+If your dna/*.json doesn't include a run_list, override and force the sputnik::default recipe:
+
+```
+chef-solo -c config/sputnik.rb -j dna/my-dna.json -o sputnik
+```
+
+Otherwise use the included run_list, hoping it includes sputnik:
+
+```
+chef-solo -c config/sputnik.rb -j dna/my-dna.json 
+```
+
+

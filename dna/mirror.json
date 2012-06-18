@@ -1,0 +1,3 @@
+{
+    "run_list": [ "debmirror::utexas-precise-amd64", "metapackage::jeddy" ]
+}

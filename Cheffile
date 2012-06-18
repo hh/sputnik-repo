@@ -1,0 +1,10 @@
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'metapackage',
+  # :path => '/home/hippie/sputnik/site-cookbooks/metapackage'
+  :git => 'https://github.com/hh-cookbooks/metapackage.git'
+
+cookbook 'sputnik',
+  :path => '/home/hippie/sputnik/site-cookbooks/sputnik'
+  # :git => 'https://github.com/hh-cookbooks/sputnik.git'
+

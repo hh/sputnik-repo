@@ -1,0 +1,8 @@
+{
+    "id": "rails+emacs",
+    "packages": [
+        "rails",
+        "emacs-goodies-el",
+        "emacs23"
+    ]
+}

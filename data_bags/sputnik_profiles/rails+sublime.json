@@ -1,0 +1,10 @@
+{
+    "id": "rails+sublime",
+    "packages": [
+        "rails",
+        "sublime-text-2-beta"
+    ],
+    "repos": [
+        "ppa:webupd8team/sublime-text-2"
+    ]
+}
