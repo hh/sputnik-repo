@@ -5,6 +5,6 @@ cookbook 'metapackage',
   :git => 'https://github.com/hh-cookbooks/metapackage.git'
 
 cookbook 'sputnik',
-  :path => '/home/hippie/sputnik/site-cookbooks/sputnik'
-  # :git => 'https://github.com/hh-cookbooks/sputnik.git'
+  # :path => '/home/hippie/sputnik/site-cookbooks/sputnik'
+  :git => 'https://github.com/hh-cookbooks/sputnik.git'
 
