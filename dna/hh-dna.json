@@ -1,8 +1,4 @@
 {
-    "run_list": [ "recipe[sputnik]" ],
-    "sputnik_profiles" : {
-        "rails+emacs",
-        "rails+sublime",
-        "rails+vim"
-    }
+    "run_list":["recipe[sputnik]"],
+    "sputnik_profiles":["rails-emacs","rails-sublime","rails-vim"]
 }

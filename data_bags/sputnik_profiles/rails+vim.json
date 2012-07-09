@@ -1,7 +1,0 @@
-{
-    "id": "rails+vim",
-    "sputnik-packages": [
-        "rails",
-        "vim"
-    ]
-}
