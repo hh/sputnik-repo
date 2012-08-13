@@ -3,11 +3,20 @@ site 'http://community.opscode.com/api/v1'
 #cookbook 'java'
 #cookbook 'ant'
 #cookbook 'emacs'
-
+cookbook 'ruby'
+cookbook 'ii',
+ :path => '/home/hh/ii/ii-cookbooks/ii'
+  # :git => 'https://github.com/hh-cookbooks/metapackage.git'
+#cookbook 'debmirror',
+#  :path => '/home/hh/ii/ii-repo/site-cookbooks/debmirror'
+  # :git => 'https://github.com/hh-cookbooks/metapackage.git'
 #cookbook 'metapackage',
 #  :path => '/home/hh/sputnik/site-cookbooks/metapackage'
   # :git => 'https://github.com/hh-cookbooks/metapackage.git'
 
-cookbook 'sputnik',
-  :path => '/home/hh/sputnik/site-cookbooks/sputnik'
+#cookbook 'sputnik',
+#  :path => '/home/hh/sputnik/site-cookbooks/sputnik'
   # :git => 'https://github.com/hh-cookbooks/sputnik.git'
+cookbook 'desktop',
+  :path => '/home/hh/ii/ii-cookbooks/cookbook-desktop'
+#  :git => 'git://github.com/juanje/cookbook-desktop.git'
