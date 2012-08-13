@@ -3,9 +3,12 @@ site 'http://community.opscode.com/api/v1'
 #cookbook 'java'
 #cookbook 'ant'
 #cookbook 'emacs'
+cookbook 'windows'
 cookbook 'ruby'
 cookbook 'ii',
  :path => '/home/hh/ii/ii-cookbooks/ii'
+cookbook 'ii-win',
+ :path => '/home/hh/ii/ii-cookbooks/ii-win'
   # :git => 'https://github.com/hh-cookbooks/metapackage.git'
 #cookbook 'debmirror',
 #  :path => '/home/hh/ii/ii-repo/site-cookbooks/debmirror'
